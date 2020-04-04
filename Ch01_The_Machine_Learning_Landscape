@@ -3,6 +3,65 @@ What Is Machine Learning
 Why Use Machine Learning
 
 Examples of Applications
+  Analyzing images of products on a production line to automatically classify them
+    This is image classification, typically performed using convolutional neural networks.
+
+  Detecting tumors in brain scans
+    This is semantic segmentation,
+    where each pixel in the image is classified (as we want to determine the exact location and shape of tumors),
+    typically using CNNs as well.
+
+    Automatically classifying news articles
+    This is natural language processing (NLP),
+    and more specifically text classification,
+    which can be tackled using recurrent neural networks (RNNs), CNNs, or Transformers.
+
+    Automatically flagging offensive comments on discussion forums
+      This is also text classification, using the same NLP tools.
+
+    Summarizing long documents automatically
+      This is a branch of NLP called text summarization, again using the same tools.
+
+    Creating a chatbot or a personal assistant
+      This involves many NLP components,
+      including natural language understanding (NLU) and question-answering modules.
+
+    Forecasting your company’s revenue next year, based on many performance metrics
+      This is a regression task (i.e., predicting values)
+      that may be tackled using any regression model,
+      such as a Linear Regression or Polynomial Regression model,
+      a regression SVM,
+      a regression Random Forest,
+      or an artificial neural network.
+      If you want to take into account sequences of past performance metrics,
+      you may want to use RNNs, CNNs, or Transformers.
+
+    Making your app react to voice commands
+      This is speech recognition, which requires processing audio samples:
+      since they are long and complex sequences,
+      they are typically processed using RNNs, CNNs, or Transformers
+
+    Detecting credit card fraud
+      This is anomaly detection
+
+    Segmenting clients based on their purchases so that you can design a different marketing strategy for each segment
+      This is clustering
+
+    Representing a complex, high-dimensional dataset in a clear and insightful diagram
+      This is data visualization, often involving dimensionality reduction techniques
+
+    Recommending a product that a client may be interested in, based on past purchases
+      This is a recommender system.
+      One approach is to feed past purchases (and other information about the client) to an artificial neural network,
+      and get it to output the most likely next purchase.
+      This neural net would typically be trained on past sequences of purchases across all clients.
+
+    Building an intelligent bot for a game
+      This is often tackled using Reinforcement Learning,
+      which is a branch of Machine Learning that trains agents (such as bots) to pick the actions that will maximize their rewards over time
+      (e.g., a bot may get a reward every time the player loses some life points),
+      within a given environment (such as the game). The famous AlphaGo program that beat the world champion at the game of Go was built using RL.
+
 
 Types of Machine Learning Systems
   Supervised/Unsupervised Learning
